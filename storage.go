@@ -8,11 +8,11 @@ import (
 )
 
 const (
-	host     = "localhost"
-	port     = 5432
-	user     = "miro"
-	password = "bta"
-	dbname   = "miro"
+	host     = "*"
+	port     = "*"
+	user     = "*"
+	password = "*"
+	dbname   = "*"
 )
 
 type Storage interface {
